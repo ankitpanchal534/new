@@ -1,0 +1,24 @@
+.Card {
+  display: flex;
+
+  /* border: 2px solid blueviolet; */
+  margin-top: 5px;
+  border-radius: 12px;
+  padding: 5px;
+  padding-top: 10px;
+  background-color: white;
+  text-align: left;
+  padding-left: 15px;
+  list-style-type: none;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+  padding-right: 15px;
+  margin-top: -5px;
+}
+.Card:hover {
+  margin: 7px;
+  padding: 10px;
+  width: 100%;
+}
